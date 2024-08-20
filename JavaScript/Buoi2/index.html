@@ -7,19 +7,22 @@
 </head>
 <body>
 
-    <h1 style="text-align: center; font-size: 400%; background-color: bisque;">Nguyễn Đình Thường</h1> 
+    <h1 id="Heading"
+        style="text-align: center; font-size: 400%; background-color: bisque;">Demo Website</h1> 
     <!-- h1 sẽ hiển thị lớn nhất, còn lại h2 -> hn sẽ hiển thị nhỏ hơn -->
     <hr>
 
 
     <!-- hr dùng cho việc tạo ra một đường kẻ ngang ngăn cách, ở đây là giữa 2 tiêu đề -->
-    <h2 style="background-color: bisque;">Nguyễn Bảo Ngọc</h2> 
+    <h2 id="FirstBody"
+        style="background-color: bisque; text-align: center;">Nguyễn Bảo Ngọc</h2> 
 
-    <p title="Là một lập trình viên nghiệp dư">Trỏ vào đây để hiển thị thông tin</p>
+    <p id="Hidden text"
+        title="Là một lập trình viên nghiệp dư">Trỏ vào đây để hiển thị thông tin</p>
 
     <hr>
 
-    <p>
+    <p id="UsingP">
         "Sử dụng br để xuống dòng"
         <br>
         Bước tới Đèo Ngang, bóng xế tà,
@@ -42,7 +45,7 @@
 
     <hr>
 
-    <pre>
+    <pre id="UsingPre">
         "Sử dụng pre để giữ nguyên định dạng của văn bản, font chữ sẽ khác với phông khi sử dụng br"
         Bước tới Đèo Ngang, bóng xế tà,
         Cỏ cây chen đá, lá chen hoa.
@@ -55,11 +58,11 @@
     </pre>  
 
     <hr>
-
-    <a href="https://x.com/i/status/1824975248841937309">Ấn vào đây để chuyển đến liên kết</a>
+    <p id="ChangeToUrl">Chuyển sang liên kết sau khi click</p>
+    <a href="https://x.com/i/status/1824975248841937309" target="_blank">Ấn vào đây để chuyển đến liên kết</a>
 
     <hr>
-
+    <p id="DisplayImage">Hiển thị hình ảnh</p>
     <img src="images/cat1.jpg" 
         width="200" 
         height="120"
@@ -77,31 +80,31 @@
 
     <hr>
 
-    <b>
+    <b id="Bold">
         Văn bản được in đậm
         <br> 
     </b>
 
-    <strong>
+    <strong id="Strong">
         Văn bản sử dụng strong -> Văn bản quan trọng 
         <br> 
     </strong>
     
-    <i>
+    <i id="Immune">
         Văn bản chữ nghiêng
         <br>
     </i>
-    <em>
+    <em id="NhanManh">
         Văn bản được nhấn mạnh
         <br>
     </em>
 
-    <small>
+    <small id="Small">
         Văn bản nhỏ hơn
         <br>
     </small>
 
-    <p>
+    <p id="Mark">
         Câu này sử dụng <mark> mark </mark> để đánh dấu.
         <br>
         Màu yêu thích của tôi là <del>xanh lam</del> đỏ 
@@ -115,6 +118,7 @@
 
     <hr>
 
+    <p id="ChangeToWeb">Chuyển sang trang web hình ảnh sau khi click vào ảnh dưới đây </p>
     <a href="https://drive.google.com/drive/folders/1CA0kaNfXtNYCbdJ857lX36u1b6pzQHUX?fbclid=IwAR3TfF5YL2piUiqFH3xF9ah6IRM6jwG6TgK0jgZbyT8jCSPsqJDro5gC7h8">
         <img src="images/cat3.jpg" alt="Không tìm thấy hình ảnh"
         style="height: 280px; border:0">
@@ -122,34 +126,79 @@
 
     <hr>
 
-    <p><img src="http://bob.codegym.vn/assets/images/Codegym-bob-RIGHTxWH200.png" 
+    <p id="UsingMap">
+        <img src="http://bob.codegym.vn/assets/images/Codegym-bob-RIGHTxWH200.png" 
         alt="Smiley face" style="float:right;width:42px;height:42px;">
-        The image will float to the right of the text.</p>
+        Ảnh sẽ nổi sang lên phải text</p>
         <br/>
     <p><img src="http://bob.codegym.vn/assets/images/Codegym-bob-RIGHTxWH200.png" 
         alt="Smiley face" style="float:left;width:42px;height:42px;">
-        The image will float to the left of the text.</p>
-    <hr>
+        Ảnh sẽ nổi sang bên trái text</p>
+    
+        <hr>
 
     <img src="images/cat4.jpg" 
         alt="Codegym map" usemap="#codegymmap" style="width:360px;height:126px;">
         
     <map name="codegymmap">
           <area shape="rect" coords="0,0,262,126" alt="Codegym" 
-          href="http://codegym.vn"   target="_blank">
-
+          href="http://codegym.vn"   target="_self">
+        <!-- Đây là hai cách sử dụng khác nhau của area -->
           <area shape="circle" coords="300,58,38" alt="Codegy Bob" 
-          href="http://bob.codegym.vn"   target="_blank">
+          href="http://bob.codegym.vn"   target="_self">
+
     </map>
+
         
     <hr>
-
+    <p id="ChangeToYoutube">Chuyển tới link sau khi click</p>
     <a href="http://bob.codegym.vn">Codegym's lessons</a>
 
     <hr>
-
+    <p>Sử dụng target="_blank", mở một cửa số mới</p>
     <a href="https://www.youtube.com" target="_blank">Youtube.com</a>
+    <br>
+    <p>Sử dụng target="_self", mở cửa sổ tại chính trang web đang truy cập</p>
+    <a href="https://www.youtube.com" target="_self">Youtube.com</a>
+    <br>
+    <p>Sử dụng target="_parent", mở cửa sổ tại chính trang web cha</p>
+    <a href="https://www.youtube.com" target="_parent">Youtube.com</a>
+    <br>
+    <p>Sử dụng target="_top", mở trang web trong cửa sổ chính </p>
+    <a href="https://www.youtube.com" target="_top">Youtube.com</a>
 
+    <hr>
 
+    <p>Sử dụng bookmark tạo đánh dấu trang</p>
+    <a href="#Heading">Jump to Heading</a>
+    <br>
+    <a href="#FirstBody">Jump to First Body</a>
+    <br>
+    <a href="#Hidden text">Jump to Hidden text</a>
+    <br>
+    <a href="#UsingP">Jump to using p</a>
+    <br>
+    <a href="#UsingPre">Jump to using pre</a>
+    <br>
+    <a href="#ChangeToUrl">Jump to Click the link</a>
+    <br>
+    <a href="#DisplayImage">Jump to Display Image</a>
+    <br>
+    <a href="#Bold">Jump to Bold sentence</a>
+    <br>
+    <a href="#Strong">Jump to Strong sentence</a>
+    <br>
+    <a href="#Immune">Jump to I sentence</a>
+    <br>
+    <a href="#Small">Jump to Small sentence</a>
+    <br>
+    <a href="#Mark">Jump to Mark sentence</a>
+    <br>
+    <a href="#ChangeToWeb">Jump to Click Image</a>
+    <br>
+    <a href="#UsingMap">Jump to Map Image</a>
+    <br>
+    <a href="#ChangeToYoutube">Jump to link to Youtube</a>
+    
 </body>
 </html>
