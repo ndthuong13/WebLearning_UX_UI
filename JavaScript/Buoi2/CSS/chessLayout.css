@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+th{
+    background-color: orange;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+}
+
+td{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+table{            
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#start_column{
+    background-color: orange;
+    height: 70px;
+    width: 70px;
+}
+
+#end_column{
+    background-color: orange;
+    height: 70px;
+    width: 70px;
+}
+#white_space{
+    background-color: white;
+    height: 70px;
+    width: 70px;
+}
+#black_space{
+    background-color: black;
+    height: 70px;
+    width: 70px;
+}
