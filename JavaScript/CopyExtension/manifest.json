@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Copy Text Extension",
+    "version": "1.0",
+    "description": "Copy all text content from the page, excluding images.",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  

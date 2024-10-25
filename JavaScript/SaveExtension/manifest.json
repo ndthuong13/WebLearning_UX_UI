@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Text Saver Extension",
+  "version": "1.0",
+  "description": "Save, edit, and delete text, even after restarting.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
