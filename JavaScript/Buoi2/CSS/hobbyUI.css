@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: black;
+}
+
+
+#heading-text {
+    background-color: rgb(255, 119, 0);
+    color: white;
+    text-align: center;
+    size: 100%;
+}
+
+#outline-border{
+    background-color: rgb(148, 248, 248);
+    border: 0;
+    width: 600px;
+}
+
+#inline-border{
+    background-color:white;
+    border: 0;
+    padding: 10px;
+}
+
+#table-username{
+    text-align: right;
+    color: blue;
+}
+
+#table-checkbox td {
+    color: rgb(255, 123, 0);
+    text-align: center;
+    display: flex;
+    
+}

@@ -1,0 +1,25 @@
+p.center{
+    text-align: center;
+    color: red;
+}
+p.another_center{
+    text-align: center;
+}
+
+#paral{
+    text-align: center;
+    color: blue;
+}
+
+p.background_color{
+    color: blueviolet;
+}
+p.background_image{
+    color: blue;
+}
+p.background_attachment{
+    color: red;
+}
+p.background_position{
+    color: saddlebrown;
+}

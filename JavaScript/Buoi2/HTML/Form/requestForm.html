@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Request</title>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Web sử dụng form</h1>
+
+    <hr>
+
+    <form style="text-align: center;">
+        First name:<br>
+        <input type="text" name="firstname" value="Mickey">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" value="Mouse" >
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>    
+
+    <hr>
+
+    <form action="https://www.google.com.vn/">
+        <input type="text" value="q"/>
+        <input type="submit" value="Tìm kiếm"/>        
+    </form>
+    
+    <hr>
+
+    <pre>Sử dụng thuộc tính method</pre>
+
+    <hr>
+
+    <form action="https://www.facebook.com/">
+        First name:<br>
+        <input type="text" value="Mickey"><br>
+        Last name:<br>
+        <input type="text" name="lastname" value="Mouse"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    
+    <hr>
+
+    <p>Nhóm các dữ liệu của biểu mẫu lại với nhau</p>
+    <form action="https://www.facebook.com/"
+            style="text-align: center;">
+        <fieldset>
+            <legend style="text-align: center;">Personal information</legend>
+            First name: <br>
+            <input type="text" name="firstname" value="Mickey"><br>
+            Last name: <br>
+            <input type="text" name="lastname" value="Mouse"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+
+    </form>
+    <br>
+
+    <p>Sử dụng form để gửi data lên server</p>
+    <form action="https://www.google.com/search" target="_blank">
+        <input type="text" name="q">
+        <input type="submit" value="Tìm kiếm">
+    </form>
+</body>
+</html>
