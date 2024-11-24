@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Facebook Tag Helper",
+    "version": "1.0",
+    "description": "Helps you tag people in Facebook chat.",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+      "https://www.facebook.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
